@@ -14,6 +14,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
     private Boolean okSelected = false;
     private Button NUbutton, okbutton, cancelbutton;
+    private int BranchSelector;
 
 
     @Override
