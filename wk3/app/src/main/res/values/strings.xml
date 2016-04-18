@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScalesV2</string>
+
+    <string name="ChooseScale">Choose Scale</string>
+    <string name="Shuffle">Shuffle</string>
+    <string name="ScalePractice">Choose Scale</string>
+    <string name="SetScale">Set Scale</string>
+    <string name="finish">Finish</string>
+    <string name="AddScale">Test</string>
+    <string name="SetScalesTitle">Set Scales</string>
+    <string name="action_settings">Settings</string>
+</resources>

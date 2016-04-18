@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScaleChooser</string>
+    <string name="Scale">A music key here</string>
+    <string name="hello_world">Scale Chooser</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
