@@ -15,35 +15,88 @@
         android:hint="CompanyCode"
         android:layout_gravity="center_horizontal" />
 
-    <Button
-        android:id="@+id/okbutton"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        style="?android:attr/buttonStyleSmall"
+    <ListView
+        android:id="@+id/BranchList"
+        android:layout_below="@+id/companyCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="72dp"
-        android:clickable="true" />
+        />
 
-    <Button
-        android:id="@+id/cancelbutton"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="72dp"
-        android:layout_marginRight="5dp"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/Name"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cancel"
-        android:layout_alignTop="@+id/okbutton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:clickable="true"
-        android:layout_gravity="right" />
+        android:hint="Name"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/Email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10" />
+
+
+    <EditText
+        android:id="@+id/loginname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login Name"
+        android:layout_weight="1.0" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_weight="1.0"
+        android:ems="10"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_weight="1.0"
+        android:ems="10"
+        android:hint="Re-enter Password" />
+
+    <LinearLayout
+        android:id="@+id/ButtonFrame"
+        android:orientation="horizontal"
+        android:background="@android:drawable/bottom_bar"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/ButtonOK" />
+
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonCancel"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

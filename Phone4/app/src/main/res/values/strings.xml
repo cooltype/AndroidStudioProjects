@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Car Hire App</string>
     <string name="action_settings">Settings</string>
-    <string name="ErrorTextY">Password or Login name is incorrect, please try again</string>
-    <string name="ErrorTextN">Please choose branch and enter login details</string>
+    <string name="ErrorTextN">Password or Login name is incorrect, please try again</string>
+    <string name="ErrorTextY">Please choose branch and enter login details</string>
     <string name="MainScreenHeading">Car App</string>
     <string name="MUScreenHeading">Create new User</string>
+    <string name="ButtonOK">OK</string>
+    <string name="ButtonCancel">Cancel</string>
 </resources>
