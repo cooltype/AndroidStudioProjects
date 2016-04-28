@@ -19,8 +19,7 @@
         android:id="@+id/BranchList"
         android:layout_below="@+id/companyCode"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/Name"

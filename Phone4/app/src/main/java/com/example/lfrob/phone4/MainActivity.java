@@ -48,9 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(
                         getApplicationContext(),
                         MakeNewUser.class);
-
                 startActivity(intent);
-
             }
         });
 
@@ -62,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 myStringArray);
         ListView myList=(ListView) findViewById(R.id.BranchList);
         myList.setAdapter(myAdapter);
-
     }
 
     @Override
